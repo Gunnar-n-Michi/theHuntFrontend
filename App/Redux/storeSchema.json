@@ -1,23 +1,59 @@
 state = {
+  "globalState":{
+    "nextReveal": "2016-12-12T12:12",
+    "preyCurrentCheckpoint": 0,
+    "communication":{
+      "preySendToBackendInterval":30,
+    }
+  },
   "gameRules":{
-    "revealPreyInterval":5,
+    "gameDuration": 3600,
+    "revealPreyInterval":300,
     "distanceForAcceptedKill":10,
-
+    "noGPSdisqualifiedTimeout": 60,
+    "maxDistanceFromStartPosition": 20
   },
   "level": {
+    "startLocation":{
+      "coord":66565465543
+    },
     "preyCheckpoints": [
       {
-
+        "deadline":"2016-12-12T12:12",
+        "coord": 5654651232465432
+      },
+      {
+        "deadline":"2016-12-12T12:12",
+        "coord": 5654651232465432
       }
     ]
-  }
+  },
   "hunters": [
     {
       "name": "Klas Bertil",
       "currentLocation":{
         "coord": 63875234875234875,
-        "timeStamp": "2016-12-12T12:12",
-      }
+        "timeStamp": "2016-12-12T12:12"
+      },
+      "previousLocations":[
+        {
+          "coord":3213516654,
+          "timeStamp": "2016-1-12T12:12"
+        }
+      ]
     }
-  ]    
+  ],
+  "prey":[
+    {
+      "name":"Gunnar",
+      "currentLocation":{
+        "coord": 63875234875234875,
+        "timeStamp": "2016-12-12T12:12"
+      },
+      "previousLocations":[
+        {
+          "coord":3213516654,
+          "timeStamp": "2016-1-12T12:12"
+        }
+      ]
 }
