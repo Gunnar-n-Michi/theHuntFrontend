@@ -1,0 +1,23 @@
+state = {
+  "gameRules":{
+    "revealPreyInterval":5,
+    "distanceForAcceptedKill":10,
+
+  },
+  "level": {
+    "preyCheckpoints": [
+      {
+
+      }
+    ]
+  }
+  "hunters": [
+    {
+      "name": "Klas Bertil",
+      "currentLocation":{
+        "coord": 63875234875234875,
+        "timeStamp": "2016-12-12T12:12",
+      }
+    }
+  ]    
+}
